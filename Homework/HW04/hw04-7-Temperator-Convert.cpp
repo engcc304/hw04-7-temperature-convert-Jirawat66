@@ -21,7 +21,7 @@ int main(){
     scanf("%f", &c ) ;
 
     float F = c * 9 / 5 + 32 ;
-    printf("%f degree Celsius = %.1f degree Fahrenheit" , c , F ) ;
+    printf("%.0f degree Celsius = %.1f degree Fahrenheit" , c , F ) ;
 
     return 0 ;
 }
