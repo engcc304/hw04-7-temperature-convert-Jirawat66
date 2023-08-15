@@ -16,9 +16,12 @@
 #include <stdio.h>
 int main(){
     float c ;
+
     printf("User input :") ;
     scanf("%f", &c ) ;
-    float F = c * 9 / 5 + 32 ;
-    printf("%.f degree Celsius = %.f degree Fahrenheit" , c , F ) ;
 
+    float F = c * 9 / 5 + 32 ;
+    printf("%f degree Celsius = %.1f degree Fahrenheit" , c , F ) ;
+
+    return 0 ;
 }
